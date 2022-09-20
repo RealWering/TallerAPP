@@ -1,0 +1,76 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Consulta Vehiculo";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Consulta de vehículo</h1>
+    <table class="table table-bordered">
+  <thead>
+    <tr>
+        <div class="input-group">
+  <div class="form-outline">
+    <input type="search" id="form1" class="form-control" />
+  
+  </div>
+  <button type="button" class="btn btn-primary btn-xs">Busqueda por placa</button>
+  
+  </div>
+  <br>
+
+
+</div>
+      <th scope="col">Placa</th>
+      <th scope="col">Tipo de vehículo</th>
+      <th scope="col">Marca</th>
+      <th scope="col">Modelo</th>
+      <th data-field="price" data-filter-control="select">Color</<th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">CPE 470</th>
+      <td>Camioneta</td>
+      <td>Mazda</td>
+      <td>2020</td>
+      <td>Negro</td>
+    </tr>
+    <tr>
+        <th scope="row">DFH 851</th>
+      <td>Vehículo</td>
+      <td>Toyota</td>
+      <td>2019</td>
+      <td>Blanco</td>
+    </tr>
+    <tr>
+       <th scope="row">WSP 842</th>
+      <td>Camioneta</td>
+      <td>Ford</td>
+      <td>2022</td>
+      <td>Rojo</td>
+    </tr>
+        <tr>
+      <th scope="row">DMF 352</th>
+      <td>Camioneta</td>
+      <td>Chevrolet</td>
+      <td>2019</td>
+      <td>Negro</td>
+    </tr>
+    <tr>
+        <th scope="row">ZZZ 000</th>
+      <td>Vehículo</td>
+      <td>Mazda</td>
+      <td>2019</td>
+      <td>Blanco</td>
+    </tr>
+    <tr>
+       <th scope="row">AMB 362</th>
+      <td>Camioneta</td>
+      <td>Renault</td>
+      <td>2022</td>
+      <td>Rojo</td>
+    </tr>
+  </tbody>
+</table>
+</div>

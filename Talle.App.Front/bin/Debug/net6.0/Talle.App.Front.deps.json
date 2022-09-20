@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Talle.App.Front/1.0.0": {
+        "runtime": {
+          "Talle.App.Front.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Talle.App.Front/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
